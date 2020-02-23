@@ -1,18 +1,9 @@
-package com.tokoin.otp.exception;
+package com.rkdevblog.ses.exception;
 
 /**
  * This exception used in AwsService
  */
-public class AwsSnsClientException extends OTPServiceException {
-
-    /**
-     * Aws client Exception
-     *
-     * @param errorMessage error message
-     */
-    public AwsSnsClientException(String errorMessage) {
-        super(errorMessage);
-    }
+public class AwsSesClientException extends RuntimeException {
 
     /**
      * Aws Client Exception with error message and throwable
@@ -20,7 +11,7 @@ public class AwsSnsClientException extends OTPServiceException {
      * @param errorMessage error message
      * @param throwable    error
      */
-    public AwsSnsClientException(String errorMessage, Throwable throwable) {
+    public AwsSesClientException(String errorMessage, Throwable throwable) {
         super(errorMessage, throwable);
     }
 
