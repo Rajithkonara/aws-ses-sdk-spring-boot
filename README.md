@@ -1,4 +1,4 @@
-# Redis cache with Spring-Boot 
+# AWS SES with Spring-Boot 
 
 This is a sample spring-boot project to demonstrate to send emails using aws ses and sdk
 
