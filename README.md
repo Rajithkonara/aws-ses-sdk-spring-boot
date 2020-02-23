@@ -2,6 +2,8 @@
 
 This is a sample spring-boot project to demonstrate to send emails using aws ses and sdk
 
+Blog post - https://www.rajith.me/2020/02/send-emails-using-aws-simple-email.html
+
 ## Requirements
 * Java 8
 * Apache Maven 3.5.0 or higher
