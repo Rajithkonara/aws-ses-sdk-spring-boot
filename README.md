@@ -20,7 +20,15 @@ mvn clean install
 java -jar target/ses-1.0.0-SNAPSHOT.jar
 ```
 
-- Use the postman collection located in /src/main/resources directory to test the application.
+- Send Request
+
+```sh
+POST  http://localhost:8080/api/v1/email
+{
+  "email": "youremail@gmail.com",
+  "body": "hello from aws ses"
+}
+```
 
 ### Reference Documentation
 For further reference, please consider the following sections:
